@@ -1,0 +1,23 @@
+/* Write your CSS code here */
+.not-found {
+  height: 300px;
+  width: 300px;
+}
+@media screen and (max-width: 576px) {
+  .not-found {
+    height: 200px;
+    width: 200px;
+  }
+}
+.not-found-heading {
+  color: #6d396b;
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 576px) {
+  .not-found-heading {
+    font-size: 40px;
+  }
+}

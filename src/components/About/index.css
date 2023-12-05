@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.about {
+  height: 300px;
+  width: 300px;
+}
+@media screen and (max-width: 576px) {
+  .about {
+    height: 200px;
+    width: 200px;
+  }
+}
+.about-heading {
+  color: #6d396b;
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 576px) {
+  .about-heading {
+    font-size: 40px;
+  }
+}
+.about-para {
+  color: #555555;
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin-bottom: 200px;
+  width: 600px;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .about-para {
+    font-size: 30px;
+    width: 300px;
+  }
+}

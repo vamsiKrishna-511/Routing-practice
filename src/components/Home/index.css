@@ -1,0 +1,24 @@
+/* Write your CSS code here */
+.home {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 576px) {
+  .home {
+    height: 200px;
+    width: 200px;
+  }
+}
+.home-heading {
+  color: #6d396b;
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-size: 50px;
+  margin-bottom: 200px;
+}
+@media screen and (max-width: 576px) {
+  .home-heading {
+    font-size: 40px;
+  }
+}

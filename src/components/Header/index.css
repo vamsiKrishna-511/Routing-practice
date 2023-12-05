@@ -1,0 +1,66 @@
+/* Write your CSS code here */
+.nav-item {
+  height: 50px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .nav-item {
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120px;
+}
+@media screen and (max-width: 576px) {
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 110px;
+  }
+}
+.wave {
+  height: 37px;
+  width: 37px;
+  margin-top: 15px;
+}
+@media screen and (max-width: 576px) {
+  .wave {
+    height: 25px;
+    width: 25px;
+    margin-top: 15px;
+  }
+}
+.wave-heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+}
+@media screen and (max-width: 576px) {
+  .wave-heading {
+    font-size: 20px;
+  }
+}
+.section-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 350px;
+  text-decoration: none;
+}
+@media screen and (max-width: 576px) {
+  .section-container {
+    width: 300px;
+  }
+}
